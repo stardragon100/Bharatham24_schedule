@@ -1,0 +1,56 @@
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px 0;
+    color: #fff;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  /* .table-bordered {
+    border: 1px solid #ddd !important;
+  } */
+  td, th {
+    border: 3px solid #ddd !important;
+    /* border-radius: 25%; */
+    padding: 8px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    border: 3px solid #ddd;
+    /* border-radius: 25%; */
+    margin:auto;
+    font-size: 2rem;
+  }
+  tr{
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+  th{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.5); /* Alternate background color */
+  }
+  body{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/bharatham-8f3b2.appspot.com/o/wave-bg.png?alt=media&token=20d0fef8-3cef-485e-a65d-8047b1b77006);
+    background-size: cover;
+    padding: 30px 0;
+  }
+
+  
+  .p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+  }
+  @media (max-width: 600px) {
+    table {
+      width: 90%;
+      font-size: 1rem;
+    }
+  }
